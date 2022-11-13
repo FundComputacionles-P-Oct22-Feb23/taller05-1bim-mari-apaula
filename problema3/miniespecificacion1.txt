@@ -1,0 +1,27 @@
+1.Inicio
+2.cersius, d[n-n]
+3.fahrenheit, d[n-n]
+4.kelvin, d[n-n]
+
+6.<<"Ingrese temperatura en grados cersius"
+7.>> cersius
+
+5.fahrenheit <-- celcius * (9/5) + 32
+
+8.Si celcius >= 0 and <= 100
+9.  kelvin <-- celcius + 278.15
+10.FinSi
+
+11.<<"De celcius a kelvin es:" + kelvin
+12.<<"De celicus a fahrneheit es:" + fahrenheit
+
+13. Fin
+
+
+
+
+
+
+
+
+19.Fin

@@ -1,0 +1,14 @@
+01. Inicio
+02. Se pide la edad del usuario.
+03. Se pide el costo por litro agua.
+04. Se pide los litros de agua consumidos en el mes.
+05. Se pide el costo por minuto del teléfono.
+06. Se pide el número de minutos consumidos en el mes.
+
+07. Si el ususario tiene menos de 20 años de edad, se le aplicará el 20% de descuento.
+08. Para calcular el costo mensual del agua, se multiplica el costo por litro por los litros consumidos en el mes.
+09. Para calcular el costo mensual del teléfono, se multiplica el costo por minuto por los minutos consumidos en el mes.
+
+10. Si el usuario tiene una edad menor a 20 años, el costo mensual del agua y del teléfono se multiplican respectivamente por 20 y se divide para 100. A la cantidad obtenida se resta del valor total a pagar de cada servicio respectivamente.
+11. Se presenta en pantalla el valor total a cancelar en el mes por el agua y por el teléfono.
+12. Fin

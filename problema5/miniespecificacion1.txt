@@ -1,0 +1,24 @@
+1. Inicio
+2. edad, i[0,n]
+3. costo_agua, d[0,n]
+4. costo_minuto, d[0,n]
+5. consumo_agua, d[0,n]
+6. consumo-minuto, d[0,n]
+7. descuento_agua <-- 20
+8. descuento_minuto <-- 20
+9. pagar_agua, d[0,n]
+10. pagar_minuto, d[0,n]
+
+11. pagar_agua <-- costo_agua * consumo_agua
+12. pagar_minuto <-- costo_minuto * consumo_minuto
+
+13. Si edad < 20 entonces
+14.   descuento_agua <-- (pagar_agua * descuento_agua)/100
+15.   pagar_agua <-- pagar_agua - descuento_agua
+16.   descuento_minuto <-- (pagar_minuto * descuento_minuto)/100
+17.   pagar_minuto <-- pagar_minuto - descuento_minuto
+18. Fin Si
+
+19. << "El valor a pagar por el servicio del agua es: " + pagarAgua
+20. << "El valor a pagar por el servicio del teléfono es: " + pagarMinuto
+21. Fin

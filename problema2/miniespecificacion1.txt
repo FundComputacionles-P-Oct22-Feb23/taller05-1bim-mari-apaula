@@ -1,0 +1,23 @@
+1. Inicio
+2.costo_pedido, d[0-n]
+3.cantidad_producto, i[0-n]
+4.precio_unitario, d[0-n]
+5.valor_descuento, d[0-n] <-- 0.15
+
+6.<<"Ingrese el costo del pedido"
+7.>> costo_pedido
+8.<<"Ingrse la cantidad del producto"
+9.>> cantidad_producto
+10.<<"Ingrese el precio unitario"
+11.>> precio_unitario
+
+12.Si cantidad_procucto > 50 entonces
+13.  valor_descuento <-- costo_pedido * valor_descuento
+14.  costo_pedido <-- costo_pedido - valor_descuento
+15.Fin Si
+
+16.<<"El costo del pedido es de" + costo_pedido
+17.<<"La canitad de procucto que a requerido es de" + antidad_producto
+18.<<"El precio unitario es de" + costo_pedido
+
+19.Fin
